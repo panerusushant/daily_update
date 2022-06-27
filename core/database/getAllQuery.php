@@ -163,14 +163,14 @@ public function createPost($table, $parameters)
     }
 
 
-    public function selectPost($table, $user_id)
+    public function listAllPost( int $user_id)
     {
             
 
         try {
 
 
-            $statement = $this->pdo->prepare("select * from {$table} where user_id = $user_id");
+            $statement = $this->pdo->prepare("select * from post where user_id = $user_id");
 
             $statement->execute();
 

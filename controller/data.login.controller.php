@@ -32,7 +32,7 @@ if (empty($email) || empty($password)) {
 
                 $_SESSION['username'] = $d['username'];
                 $_SESSION['id'] = $d['id'];
-                header('Location: views/userLandingpage.php?id='.$_SESSION['id']);
+                header('Location: welcome?id='.$_SESSION['id']);
 
                 // echo "login successful!";
 
@@ -53,7 +53,7 @@ if (empty($email) || empty($password)) {
 
                 $_SESSION['username'] = $d['username'];
                 $_SESSION['id'] = $d['id'];
-                header('Location: views/adminLandingpage.php?id='.$_SESSION['id']);
+                header('Location: adminpannel?id='.$_SESSION['id']);
 
                 // echo "login successful!";
 

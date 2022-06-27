@@ -19,7 +19,7 @@ $router -> post('login', 'controller/data.login.controller.php');
 // $router -> get('home', 'controller/landingpage.controller.php');
 $router -> post('daily-update', 'controller/daily.update.controller.php');
 
-// $router -> get('views/userLandingpage.php', 'controller/userLandingpage.controller.php');
-
+$router -> get('welcome', 'controller/userLanding.controller.php');
+$router -> get('adminpannel', 'controller/adminLanding.controller.php');
 
 

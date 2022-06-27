@@ -61,7 +61,7 @@
 
 
                                         <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                                            <button type="submit" class="btn-primary btn-lg" name="submit">Register</button>
+                                            <button type="submit" class="btn-primary btn-lg" name="submit">Post</button>
                                         </div>
 
                                     </form>

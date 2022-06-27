@@ -1,7 +1,4 @@
-<?php
- session_start();
 
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -30,7 +27,7 @@
                     <a class="nav-link" href="adminLandingpage.php">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="logout.php">Logout</a>
+                    <a class="nav-link" href="views/logout.php">Logout</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="registration.php">Register User</a>
